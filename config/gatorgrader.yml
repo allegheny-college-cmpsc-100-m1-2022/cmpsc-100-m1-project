@@ -1,0 +1,15 @@
+---
+name: CMPSC 100 M1 Project
+break: true
+indent: 4
+---
+
+writing/final-report.md:
+    MatchFileFragment --fragment "TODO" --count 0 --exact --description "[MARKDOWN] final-report.md contains no TODOs"
+    CountFileWords --count 500
+
+writing/proposal.md:
+    MatchFileFragment --fragment "TODO" --count 0 --exact --description "[MARKDOWN] proposal.md contains no TODOs"
+    CountFileWords --count 300
+
+ExecuteCommand --command "cd src && python showroom.py" --description "[PROGRAMMING] src/showroom.py executes without error"
