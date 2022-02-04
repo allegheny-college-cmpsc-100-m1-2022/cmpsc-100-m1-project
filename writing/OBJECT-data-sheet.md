@@ -39,3 +39,10 @@ TODO: finish this codeblock and add more code blocks as necessary
 #### Where do you think you might need more assistance?
 
 `TODO`
+
+## Creating your object
+
+In your project folder, run the following commands:
+
+`git checkout -b OBJECT`
+`git push origin OBJECT`
